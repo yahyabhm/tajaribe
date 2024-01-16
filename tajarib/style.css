@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@700&display=swap');
+*{
+    font-family: 'Saira', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background:linear-gradient(to right,#92C7CF,#0F1035);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    font-weight:700 ;
+    font-size: 1.8em;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.navigation a{
+    color:#fff ;
+    text-decoration: none;
+font-size: 1.1rem;
+font-weight: 500;
+padding-left: 30px;
+}
+.navigation a:hover{
+    color:#a09bca;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/imag/jp.jpg) no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.main h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 3em;
+    color: #92C7CF;
+    font-weight: 800;
+}
+.main h3{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main .togo{
+    color: #c44b14;
+}
+.main .roon{
+    color: #6d99cc;
+}
+.main-btn{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #5980ac;
+    margin-bottom: 40px;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 200px;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+  background-color:#120aff ; 
+  transform: scale(1.1);
+}
+.social-icons a{
+    color: #6e6b6b;
+    font-size: 28px;
+    letter-spacing: 30px;  
+    transition: 0.5s ease;
+}
+.social-icons a:hover{
+    transform: scale(2);
+    color: #ffffff;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #92C7CF;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+}
